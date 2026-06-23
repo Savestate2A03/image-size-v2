@@ -12,6 +12,9 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - uses: actions/setup-node@v1
         with:
           node-version: 18
