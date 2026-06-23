@@ -1,10 +1,16 @@
-# image-size
+# image-size-v2
 
 [![Build Status](https://circleci.com/gh/image-size/image-size.svg?style=shield)](https://circleci.com/gh/image-size/image-size)
 [![Package Version](https://img.shields.io/npm/v/image-size.svg)](https://www.npmjs.com/package/image-size)
 [![Downloads](https://img.shields.io/npm/dm/image-size.svg)](http://npm-stat.com/charts.html?package=image-size&author=netroy&from=&to=)
 
 Fast, lightweight NodeJS package to get dimensions of any image file or buffer.
+
+## Why v2
+
+To patch the previous NPM package by netroy that was archived after getting invaded by AI slop requests
+
+https://github.com/image-size/image-size/
 
 ## Key Features
 - Zero dependencies
