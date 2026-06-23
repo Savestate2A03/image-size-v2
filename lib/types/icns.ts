@@ -97,7 +97,7 @@ export const ICNS: IImage = {
       const offset = imageHeader[1];
       if (offset <= 0) break
       images.push(imageSize)
-      imageOffset += imageHeader[1]
+      imageOffset += offset
     }
 
     if (images.length === 0) {
