@@ -18,10 +18,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-          registry-url: 'https://registry.npmjs.org/'  # ← public npm, not GitHub
+          registry-url: 'https://registry.npmjs.org/'
 
       - run: yarn install --immutable
 
-      - run: yarn publish --access public  # ← required for scoped packages
+      - run: yarn publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}  # ← npm token, not GITHUB_TOKEN
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
