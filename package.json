@@ -1,5 +1,5 @@
 {
-  "name": "image-size-v2",
+  "name": "@rei.wolf/image-size-v2",
   "version": "1.0.0",
   "description": "get dimensions of any image file",
   "main": "./dist/index.cjs",
@@ -82,7 +82,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/image-size/image-size.git"
+    "url": "git://github.com/Savestate2A03/image-size-v2.git"
   },
   "author": "rei wolf <rei@sav.estate> (https://sav.estate)",
   "license": "MIT",
