@@ -42,6 +42,7 @@ export const HEIF: IImage = {
     while (currentOffset < ipcoBox.offset + ipcoBox.size) {
       const ispeBox = findBox(input, 'ispe', currentOffset)
       if (!ispeBox) break
+      if (ispeBox.size <= 0) break
 
       const rawWidth = readUInt32BE(input, ispeBox.offset + 12)
       const rawHeight = readUInt32BE(input, ispeBox.offset + 16)
