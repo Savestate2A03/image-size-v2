@@ -1,6 +1,6 @@
 {
-  "name": "image-size",
-  "version": "2.0.2",
+  "name": "image-size-v2",
+  "version": "1.0.0",
   "description": "get dimensions of any image file",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -84,7 +84,7 @@
     "type": "git",
     "url": "git://github.com/image-size/image-size.git"
   },
-  "author": "netroy <aditya@netroy.in> (http://netroy.in/)",
+  "author": "rei wolf <rei@sav.estate> (https://sav.estate)",
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
